@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Hub</title>
+</head>
+<link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap'>
+<link rel="stylesheet" href="style.css">
+<style>
+  /* CSS reset */
+  body {
+    margin: 0px;
+    padding: 0px;
+    background: url('images/bg4.jpg');
+    color: aliceblue;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+
+  .left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+  }
+
+  .mid {
+    /* border: 2px solid deeppink; */
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+  }
+
+  .right {
+    /* border: 2px solid rebeccapurple; */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+  }
+
+  .navbar {
+    display: inline-block;
+
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+  }
+
+  .navbar li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: overline;
+    color: chartreuse;
+  }
+
+  .left img {
+    width: 90px;
+    height: 70px;
+
+  }
+
+  .left div {
+    text-align: center;
+  }
+
+  .btn {
+    margin: 0px 10px;
+    background-color: black;
+    color: antiquewhite;
+    padding: 4px 14px;
+    border: 2px solid ghostwhite;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+
+  .btn:hover {
+    background-color: #7b5db1;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+
+  .container {
+    /* border: 2px solid white; */
+    margin: 120px auto;
+    padding: 21px 20px;
+    display: block;
+    width: 45%;
+    border-radius: 5px;
+
+  }
+
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 230px;
+    padding: 7px;
+    border: 2ps solid violet;
+    margin: 20px auto;
+    font-size: 14px;
+    border-radius: 10px;
+    font-family: 'Otomanopee One', sans-serif;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+  .container h3 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: overline;
+  }
+  
+
+  .container button {
+    display: block;
+    width: 80px;
+    margin: auto;
+  }
+</style>
+
+<body>
+  <header class="header">
+    <div class="left">
+      <!-- logo -->
+      <img src="images/logo copy.png" alt="">
+      <div>FitNess Hub</div>
+
+    </div>
+    <div class="mid">
+      <!-- navbar -->
+      <ul class="navbar">
+        <li><a href="#" >Home</a></li>
+        <li><a href="#" >About Us</a></li>
+        <li><a href="#">Fitness Calculator</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <!-- buttons -->
+      <button class="btn">
+        Call Us
+      </button>
+      <button class="btn">
+        Email Us
+      </button>
+    </div>
+  </header>
+  <dic class="container">
+    <h3>Best Gym in your locality</h3>
+    <h1>Enroll Today</h1>
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your age">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your gender">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your phone number">
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+  </dic>
+
+</body>
+
+</html>
